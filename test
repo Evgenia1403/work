@@ -1,47 +1,129 @@
 {
-  "cells" : [ {
-                  "type" : "left_right_cell_view",
-                  "left" : {
-                    "type" : "simple_left_view",
-                    "icon" : {
-                      "address" : {
-                        "type" : "local",
-                        "identificator" : "arrow_right_trace_line"
-                      },
-                      "size" : {
-                        "width" : "medium",
-                        "height" : "medium"
-                      },
-                      "margins" : {
-                        "top" : "5x",
-                        "right" : "6x",
-                        "bottom" : "5x",
-                        "left" : "8x"
-                      },
-                      "tint_color" : "solid_brand"
-                    },
-                    "title" : {
-                      "text" : "В СберБанк Онлайн",
-                      "typeface" : "body1",
-                      "text_color" : "default",
-                      "max_lines" : 1,
-                      "margins" : {
-                        "top" : "9x",
-                        "bottom" : "9x"
-                      }
+    "card": {
+        "type": "grid_card",
+        "items": [
+            {
+                "type": "greeting_grid_item",
+                "top_text": {
+                    "type": "text_cell_view",
+                    "text": "СОБЕСЕДНИК",
+                    "typeface": "caption",
+                    "text_color": "default"
+                },
+                "bottom_text": {
+                    "type": "text_cell_view",
+                    "text": "Какая высота Эвереста?",
+                    "typeface": "body3",
+                    "text_color": "default",
+                    "max_lines": 3,
+                    "margins": {
+                        "top": "4x"
                     }
-                  },
-                  "right" : {
-                    "type" : "disclosure_right_view",
-                    "margins" : {
-                      "top" : "8x",
-                      "right" : "4x",
-                      "bottom" : "8x"
+                },
+                "paddings": {
+                    "top": "6x",
+                    "left": "6x",
+                    "right": "6x",
+                    "bottom": "6x"
+                },
+                "actions": [
+                    {
+                        "text": "Какая высота Эвереста?"
                     }
-                  },
-                  "actions" : [ {
-                    "type" : "deep_link",
-                    "deep_link" : "{% if device.platformType|lower == 'ios' %}https://sberbankonline.onelink.me/46WQ?pid=superapp&c=superapp&is_retargeting=true&af_dp=sberbankonline%3A%2F%2Fmainscreen%3Finternal_source%3Daudiohelper{% else %}https://sberbank-online.onelink.me/q4HS?pid=superapp&c=superapp&is_retargeting=true&af_dp=android-app%3A%2F%2Fru.sberbankmobile%2Fandroid-app%2Fru.sberbankmobile%2Fmain%3Finternal_source%3Daudiohelper{% endif %}"
-                  } ]
-                } ]
+                ]
+            },
+            {
+                "type": "greeting_grid_item",
+                "top_text": {
+                    "type": "text_cell_view",
+                    "text": "КОШЕЛЕК",
+                    "typeface": "caption",
+                    "text_color": "default"
+                },
+                "bottom_text": {
+                    "type": "text_cell_view",
+                    "text": "Сколько у меня денег?",
+                    "typeface": "body3",
+                    "text_color": "default",
+                    "max_lines": 3,
+                    "margins": {
+                        "top": "4x"
+                    }
+                },
+                "paddings": {
+                    "top": "6x",
+                    "left": "6x",
+                    "right": "6x",
+                    "bottom": "6x"
+                },
+                "actions": [
+                    {
+                        "text": "Сколько у меня денег?"
+                    }
+                ]
+            },
+            {
+                "type": "greeting_grid_item",
+                "top_text": {
+                    "type": "text_cell_view",
+                    "text": "ПОГОДА",
+                    "typeface": "caption",
+                    "text_color": "default"
+                },
+                "bottom_text": {
+                    "type": "text_cell_view",
+                    "text": "Какая погода вечером в Москве?",
+                    "typeface": "body3",
+                    "text_color": "default",
+                    "max_lines": 3,
+                    "margins": {
+                        "top": "4x"
+                    }
+                },
+                "paddings": {
+                    "top": "6x",
+                    "left": "6x",
+                    "right": "6x",
+                    "bottom": "6x"
+                },
+                "actions": [
+                    {
+                        "text": "Какая погода вечером в Москве?"
+                    }
+                ]
+            },
+            {
+                "type": "greeting_grid_item",
+                "top_text": {
+                    "type": "text_cell_view",
+                    "text": "ПЕРЕВОД",
+                    "typeface": "caption",
+                    "text_color": "default"
+                },
+                "bottom_text": {
+                    "type": "text_cell_view",
+                    "text": "Отправь маме 500 рублей",
+                    "typeface": "body3",
+                    "text_color": "default",
+                    "max_lines": 3,
+                    "margins": {
+                        "top": "4x"
+                    }
+                },
+                "paddings": {
+                    "top": "6x",
+                    "left": "6x",
+                    "right": "6x",
+                    "bottom": "6x"
+                },
+                "actions": [
+                    {
+                        "text": "Отправь маме 500 рублей"
+                    }
+                ]
+            }
+        ],
+        "columns": 2,
+        "item_width": "small"
+    }
 }
