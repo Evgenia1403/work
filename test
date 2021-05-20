@@ -1,5 +1,5 @@
-{
-                      "card" : {
+
+                   {
                         "type" : "list_card",
                         "cells" : [ {
                           "type" : "left_right_cell_view",
@@ -47,4 +47,4 @@
                           } ]
                         } ]
                       }
-                    }
+                    
