@@ -15,16 +15,8 @@
       },
       "actions": [
         {
-          "type": "sdk_answer",
-          "items": [
-            {
-              "bubble": {
-                "text": [
-                  "Выбрано"
-                ]
-              }
-            }
-          ]
+          "text": "Выбрано",
+          "type": "text"
         }
       ],
       "divider": {
@@ -42,16 +34,8 @@
       },
       "actions": [
         {
-          "type": "sdk_answer",
-          "items": [
-            {
-              "bubble": {
-                "text": [
-                  "Выбрано"
-                ]
-              }
-            }
-          ]
+          "text": "Выбрано",
+          "type": "text"
         }
       ],
       "divider": {
@@ -69,16 +53,8 @@
       },
       "actions": [
         {
-          "type": "sdk_answer",
-          "items": [
-            {
-              "bubble": {
-                "text": [
-                  "Выбрано"
-                ]
-              }
-            }
-          ]
+          "text": "Выбрано",
+          "type": "text"
         }
       ],
       "divider": {
@@ -96,16 +72,8 @@
       },
       "actions": [
         {
-          "type": "sdk_answer",
-          "items": [
-            {
-              "bubble": {
-                "text": [
-                  "Выбрано"
-                ]
-              }
-            }
-          ]
+          "text": "Выбрано",
+          "type": "text"
         }
       ],
       "divider": {
@@ -123,16 +91,8 @@
       },
       "actions": [
         {
-          "type": "sdk_answer",
-          "items": [
-            {
-              "bubble": {
-                "text": [
-                  "Выбрано"
-                ]
-              }
-            }
-          ]
+          "text": "Выбрано",
+          "type": "text"
         }
       ],
       "divider": {
