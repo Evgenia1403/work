@@ -12,92 +12,24 @@
         "typeface": "headline3",
         "text_color": "default",
         "max_lines": 0
-      },
-      "actions": [
-        {
-          "text": "Выбрано",
-          "type": "text"
-        }
-      ],
-      "divider": {
-        "style": "default",
-        "size": "d5"
       }
     },
     {
       "type": "text_cell_view",
       "content": {
-        "text": "Сейф 1/96 до 2020-01-03T00:00:00+0300",
-        "typeface": "headline3",
-        "text_color": "default",
+        "text": "г.Москва, ул. Волжский бульвар, квартал 113А, корп. 1",
+        "typeface": "body1",
+        "text_color": "brand",
         "max_lines": 0
-      },
-      "actions": [
-        {
-          "text": "Выбрано",
-          "type": "text"
-        }
-      ],
-      "divider": {
-        "style": "default",
-        "size": "d5"
       }
     },
     {
       "type": "text_cell_view",
       "content": {
-        "text": "Сейф 1/99 до 2020-06-02T00:00:00+0300",
-        "typeface": "headline3",
-        "text_color": "default",
+        "text": "Valid",
+        "typeface": "body1",
+        "text_color": "critical",
         "max_lines": 0
-      },
-      "actions": [
-        {
-          "text": "Выбрано",
-          "type": "text"
-        }
-      ],
-      "divider": {
-        "style": "default",
-        "size": "d5"
-      }
-    },
-    {
-      "type": "text_cell_view",
-      "content": {
-        "text": "Сейф 2/4 до 2020-03-11T00:00:00+0300",
-        "typeface": "headline3",
-        "text_color": "default",
-        "max_lines": 0
-      },
-      "actions": [
-        {
-          "text": "Выбрано",
-          "type": "text"
-        }
-      ],
-      "divider": {
-        "style": "default",
-        "size": "d5"
-      }
-    },
-    {
-      "type": "text_cell_view",
-      "content": {
-        "text": "Сейф 333/711 до 2020-03-09T00:00:00+0300",
-        "typeface": "headline3",
-        "text_color": "default",
-        "max_lines": 0
-      },
-      "actions": [
-        {
-          "text": "Выбрано",
-          "type": "text"
-        }
-      ],
-      "divider": {
-        "style": "default",
-        "size": "d5"
       }
     }
   ]
