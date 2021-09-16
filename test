@@ -7,8 +7,11 @@
                           "top_text": {
                             "type": "text_cell_view",
                             "text": "Как я получу товар",
-                            "typeface": "caption",
-                            "text_color": "default"
+                            "typeface": "body3",
+                            "text_color": "default",
+                            "margin": {
+                              "top": "4x"
+                            }
                           },
                           "bottom_text": {
                             "type": "text_cell_view",
