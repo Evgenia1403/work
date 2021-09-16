@@ -11,7 +11,8 @@
                             "text_color": "default",
                             "margins": {
                               "top": "4x"
-                            }
+                            },
+                            "max_lines": 0
                           },
                           "bottom_text": {
                             "type": "text_cell_view",
