@@ -1,36 +1,124 @@
 {
-  "type": "list_card",
-  "paddings": {
-    "top": "4x",
-    "bottom": "4x"
-  },
-  "cells": [
-    {
-      "type": "text_cell_view",
-      "content": {
-        "text": "Сейф 333/767 до 08 марта 2020",
-        "typeface": "headline3",
-        "text_color": "default",
-        "max_lines": 0
-      }
-    },
-    {
-      "type": "text_cell_view",
-      "content": {
-        "text": "г.Москва, ул. Волжский бульвар, квартал 113А, корп. 1",
-        "typeface": "body1",
-        "text_color": "brand",
-        "max_lines": 0
-      }
-    },
-    {
-      "type": "text_cell_view",
-      "content": {
-        "text": "Valid",
-        "typeface": "body1",
-        "text_color": "critical",
-        "max_lines": 0
-      }
-    }
-  ]
-}
+                      "type": "grid_card",
+                      "can_be_disabled": true,
+                      "items": [
+                        {
+                          "type": "greeting_grid_item",
+                          "top_text": {
+                            "type": "text_cell_view",
+                            "text": " ",
+                            "typeface": "caption",
+                            "text_color": "default"
+                          },
+                          "bottom_text": {
+                            "type": "text_cell_view",
+                            "text": "Как я получу товар",
+                            "typeface": "body3",
+                            "text_color": "default",
+                            "max_lines": 3
+
+                          },
+                          "paddings": {
+                            "top": "6x",
+                            "left": "6x",
+                            "right": "6x",
+                            "bottom": "6x"
+                          },
+                          "actions": [
+                            {
+                              "type": "text",
+                              "text": "Как я получу товар"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "greeting_grid_item",
+                          "top_text": {
+                            "type": "text_cell_view",
+                            "text": " ",
+                            "typeface": "caption",
+                            "text_color": "default"
+                          },
+                          "bottom_text": {
+                            "type": "text_cell_view",
+                            "text": "Отличия рассрочки и кредита",
+                            "typeface": "body3",
+                            "text_color": "default",
+                            "max_lines": 3
+
+                          },
+                          "paddings": {
+                            "top": "6x",
+                            "left": "6x",
+                            "right": "6x",
+                            "bottom": "6x"
+                          },
+                          "actions": [
+                            {
+                              "type": "text",
+                              "text": "Отличия рассрочки и кредита"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "greeting_grid_item",
+                          "top_text": {
+                            "type": "text_cell_view",
+                            "text": " ",
+                            "typeface": "caption",
+                            "text_color": "default"
+                          },
+                          "bottom_text": {
+                            "type": "text_cell_view",
+                            "text": "Посмотреть списки партнеров и товаров",
+                            "typeface": "body3",
+                            "text_color": "default",
+                            "max_lines": 3
+
+                          },
+                          "paddings": {
+                            "top": "6x",
+                            "left": "6x",
+                            "right": "6x",
+                            "bottom": "6x"
+                          },
+                          "actions": [
+                            {
+                              "type": "text",
+                              "text": "Посмотреть списки партнеров и товаров"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "greeting_grid_item",
+                          "top_text": {
+                            "type": "text_cell_view",
+                            "text": " ",
+                            "typeface": "caption",
+                            "text_color": "default"
+                          },
+                          "bottom_text": {
+                            "type": "text_cell_view",
+                            "text": "Узнать условия рассрочки",
+                            "typeface": "body3",
+                            "text_color": "default",
+                            "max_lines": 3
+
+                          },
+                          "paddings": {
+                            "top": "6x",
+                            "left": "6x",
+                            "right": "6x",
+                            "bottom": "6x"
+                          },
+                          "actions": [
+                            {
+                              "type": "text",
+                              "text": "Узнать условия рассрочки"
+                            }
+                          ]
+                        }
+                      ],
+                      "columns": 2,
+                      "item_width": "small"
+                    }
