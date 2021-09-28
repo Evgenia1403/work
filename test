@@ -12,7 +12,7 @@
         "icon": {
           "address": {
             "type": "local",
-            "identificator": "arrow_right_trace_line"
+            "identificator": "info"
           },
           "size": {
             "width": "medium",
@@ -44,6 +44,10 @@
           "bottom": "8x"
         }
       },
+      "divider": {
+        "style": "default",
+        "size": "d5"
+      },
       "actions": [
         {
           "type": "text",
@@ -58,7 +62,7 @@
         "icon": {
           "address": {
             "type": "local",
-            "identificator": "arrow_right_trace_line"
+            "identificator": "basket"
           },
           "size": {
             "width": "medium",
@@ -73,7 +77,7 @@
           "tint_color": "solid_brand"
         },
         "title": {
-          "text": "Как покупать в рассрочку?",
+          "text": "Как покупать в рассрочку",
           "typeface": "body1",
           "text_color": "default",
           "margins": {
@@ -90,10 +94,14 @@
           "bottom": "8x"
         }
       },
+      "divider": {
+        "style": "default",
+        "size": "d5"
+      },
       "actions": [
         {
           "type": "text",
-          "text": "Как покупать в рассрочку?"
+          "text": "Как покупать в рассрочку"
         }
       ]
     },
@@ -104,7 +112,7 @@
         "icon": {
           "address": {
             "type": "local",
-            "identificator": "arrow_right_trace_line"
+            "identificator": "document_magnifying_glass"
           },
           "size": {
             "width": "medium",
@@ -119,7 +127,7 @@
           "tint_color": "solid_brand"
         },
         "title": {
-          "text": "Мою заявку одобрили?",
+          "text": "Мою заявку одобрили",
           "typeface": "body1",
           "text_color": "default",
           "margins": {
@@ -136,10 +144,14 @@
           "bottom": "8x"
         }
       },
+      "divider": {
+        "style": "default",
+        "size": "d5"
+      },
       "actions": [
         {
           "type": "text",
-          "text": "Мою заявку одобрили?"
+          "text": "Мою заявку одобрили"
         }
       ]
     },
@@ -150,7 +162,7 @@
         "icon": {
           "address": {
             "type": "local",
-            "identificator": "arrow_right_trace_line"
+            "identificator": "clock"
           },
           "size": {
             "width": "medium",
@@ -165,11 +177,11 @@
           "tint_color": "solid_brand"
         },
         "title": {
-          "text": "Сколько ждать одобрения?",
+          "text": "Сколько ждать одобрения",
           "typeface": "body1",
           "text_color": "default",
           "margins": {
-            "top": "9x",
+"top": "9x",
             "bottom": "9x"
           }
         }
@@ -178,14 +190,14 @@
         "type": "disclosure_right_view",
         "margins": {
           "top": "8x",
-"right": "4x",
+          "right": "4x",
           "bottom": "8x"
         }
       },
       "actions": [
         {
           "type": "text",
-          "text": "Сколько ждать одобрения?"
+          "text": "Сколько ждать одобрения"
         }
       ]
     }
