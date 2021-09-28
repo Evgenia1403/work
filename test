@@ -1,128 +1,194 @@
 {
-                      "type": "grid_card",
-                      "can_be_disabled": true,
-                      "items": [
-                        {
-                          "type": "greeting_grid_item",
-                          "top_text": {
-                            "type": "text_cell_view",
-                            "text": "Как я получу товар",
-                            "typeface": "body3",
-                            "text_color": "default",
-                            "margins": {
-                              "top": "4x"
-                            },
-                            "max_lines": 0
-                          },
-                          "bottom_text": {
-                            "type": "text_cell_view",
-                            "text": " ",
-                            "typeface": "body3",
-                            "text_color": "default",
-                            "max_lines": 3
+  "type": "list_card",
+  "paddings": {
+    "top": "4x",
+    "bottom": "4x"
+  },
+  "cells": [
+    {
+      "type": "left_right_cell_view",
+      "left": {
+        "type": "simple_left_view",
+        "icon": {
+          "address": {
+            "type": "local",
+            "identificator": "arrow_right_trace_line"
+          },
+          "size": {
+            "width": "medium",
+            "height": "medium"
+          },
+          "margins": {
+            "top": "5x",
+            "right": "6x",
+            "bottom": "5x",
+            "left": "8x"
+          },
+          "tint_color": "solid_brand"
+        },
+        "title": {
+          "text": "Рассказать о рассрочке",
+          "typeface": "body1",
+          "text_color": "default",
+          "margins": {
+            "top": "9x",
+            "bottom": "9x"
+          }
+        }
+      },
+      "right": {
+        "type": "disclosure_right_view",
+        "margins": {
+          "top": "8x",
+          "right": "4x",
+          "bottom": "8x"
+        }
+      },
+      "actions": [
+        {
+          "type": "text",
+          "text": "Рассказать о рассрочке"
+        }
+      ]
+    },
+    {
+      "type": "left_right_cell_view",
+      "left": {
+        "type": "simple_left_view",
+        "icon": {
+          "address": {
+            "type": "local",
+            "identificator": "arrow_right_trace_line"
+          },
+          "size": {
+            "width": "medium",
+            "height": "medium"
+          },
+          "margins": {
+            "top": "5x",
+            "right": "6x",
+            "bottom": "5x",
+            "left": "8x"
+          },
+          "tint_color": "solid_brand"
+        },
+        "title": {
+          "text": "Как покупать в рассрочку?",
+          "typeface": "body1",
+          "text_color": "default",
+          "margins": {
+            "top": "9x",
+            "bottom": "9x"
+          }
+        }
+      },
+      "right": {
+        "type": "disclosure_right_view",
+        "margins": {
+          "top": "8x",
+          "right": "4x",
+          "bottom": "8x"
+        }
+      },
+      "actions": [
+        {
+          "type": "text",
+          "text": "Как покупать в рассрочку?"
+        }
+      ]
+    },
+    {
+      "type": "left_right_cell_view",
+      "left": {
+        "type": "simple_left_view",
+        "icon": {
+          "address": {
+            "type": "local",
+            "identificator": "arrow_right_trace_line"
+          },
+          "size": {
+            "width": "medium",
+            "height": "medium"
+          },
+          "margins": {
+            "top": "5x",
+            "right": "6x",
+            "bottom": "5x",
+            "left": "8x"
+          },
+          "tint_color": "solid_brand"
+        },
+        "title": {
+          "text": "Мою заявку одобрили?",
+          "typeface": "body1",
+          "text_color": "default",
+          "margins": {
+            "top": "9x",
+            "bottom": "9x"
+          }
+        }
+      },
+      "right": {
+        "type": "disclosure_right_view",
+        "margins": {
+          "top": "8x",
+          "right": "4x",
+          "bottom": "8x"
+        }
+      },
+      "actions": [
+        {
+          "type": "text",
+          "text": "Мою заявку одобрили?"
+        }
+      ]
+    },
+    {
+      "type": "left_right_cell_view",
+      "left": {
+        "type": "simple_left_view",
+        "icon": {
+          "address": {
+            "type": "local",
+            "identificator": "arrow_right_trace_line"
+          },
+          "size": {
+            "width": "medium",
+            "height": "medium"
+          },
+          "margins": {
+            "top": "5x",
+            "right": "6x",
+            "bottom": "5x",
+            "left": "8x"
+          },
+          "tint_color": "solid_brand"
+        },
+        "title": {
+          "text": "Сколько ждать одобрения?",
+          "typeface": "body1",
+          "text_color": "default",
+          "margins": {
+            "top": "9x",
+            "bottom": "9x"
+          }
+        }
+      },
+      "right": {
+        "type": "disclosure_right_view",
+        "margins": {
+          "top": "8x",
+"right": "4x",
+          "bottom": "8x"
+        }
+      },
+      "actions": [
+        {
+          "type": "text",
+          "text": "Сколько ждать одобрения?"
+        }
+      ]
+    }
+  ]
+}
 
-                          },
-                          "paddings": {
-                            "top": "6x",
-                            "left": "6x",
-                            "right": "6x",
-                            "bottom": "6x"
-                          },
-                          "actions": [
-                            {
-                              "type": "text",
-                              "text": "Как я получу товар"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "greeting_grid_item",
-                          "top_text": {
-                            "type": "text_cell_view",
-                            "text": "Отличия рассрочки и кредита",
-                            "typeface": "caption",
-                            "text_color": "default"
-                          },
-                          "bottom_text": {
-                            "type": "text_cell_view",
-                            "text": " ",
-                            "typeface": "body3",
-                            "text_color": "default",
-                            "max_lines": 3
-
-                          },
-                          "paddings": {
-                            "top": "6x",
-                            "left": "6x",
-                            "right": "6x",
-                            "bottom": "6x"
-                          },
-                          "actions": [
-                            {
-                              "type": "text",
-                              "text": "Отличия рассрочки и кредита"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "greeting_grid_item",
-                          "top_text": {
-                            "type": "text_cell_view",
-                            "text": "Посмотреть списки партнеров и товаров",
-                            "typeface": "caption",
-                            "text_color": "default"
-                          },
-                          "bottom_text": {
-                            "type": "text_cell_view",
-                            "text": " ",
-                            "typeface": "body3",
-                            "text_color": "default",
-                            "max_lines": 3
-
-                          },
-                          "paddings": {
-                            "top": "6x",
-                            "left": "6x",
-                            "right": "6x",
-                            "bottom": "6x"
-                          },
-                          "actions": [
-                            {
-                              "type": "text",
-                              "text": "Посмотреть списки партнеров и товаров"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "greeting_grid_item",
-                          "top_text": {
-                            "type": "text_cell_view",
-                            "text": "Узнать условия рассрочки",
-                            "typeface": "caption",
-                            "text_color": "default"
-                          },
-                          "bottom_text": {
-                            "type": "text_cell_view",
-                            "text": " ",
-                            "typeface": "body3",
-                            "text_color": "default",
-                            "max_lines": 3
-
-                          },
-                          "paddings": {
-                            "top": "6x",
-                            "left": "6x",
-                            "right": "6x",
-                            "bottom": "6x"
-                          },
-                          "actions": [
-                            {
-                              "type": "text",
-                              "text": "Узнать условия рассрочки"
-                            }
-                          ]
-                        }
-                      ],
-                      "columns": 2,
-                      "item_width": "small"
-                    }
