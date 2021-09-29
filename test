@@ -1,206 +1,233 @@
 {
-  "type": "list_card",
-  "paddings": {
-    "top": "4x",
-    "bottom": "4x"
-  },
-  "cells": [
-    {
-      "type": "left_right_cell_view",
-      "left": {
-        "type": "simple_left_view",
-        "icon": {
-          "address": {
-            "type": "local",
-            "identificator": "info"
-          },
-          "size": {
-            "width": "medium",
-            "height": "medium"
-          },
-          "margins": {
-            "top": "5x",
-            "right": "6x",
-            "bottom": "5x",
-            "left": "8x"
-          },
-          "tint_color": "solid_brand"
-        },
-        "title": {
-          "text": "Рассказать о рассрочке",
-          "typeface": "body1",
-          "text_color": "default",
-          "margins": {
-            "top": "9x",
-            "bottom": "9x"
-          }
+            "type": "list_card",
+            "paddings": {
+                "top": "4x",
+                "bottom": "4x"
+            },
+            "cells": [
+                {
+                    "type": "left_right_cell_view",
+                    "paddings": {
+                        "top": "6x",
+                        "right": "6x",
+                        "bottom": "6x",
+                        "left": "6x"
+                    },
+                    "left": {
+                        "type": "simple_left_view",
+                        "icon": {
+                            "address": {
+                                "type": "local",
+                                "identificator": "safe"
+                            },
+                            "size": {
+                                "width": "medium",
+                                "height": "medium"
+                            },
+                            "margins": {
+                                "top": "5x",
+                                "right": "6x",
+                                "bottom": "5x",
+                                "left": "8x"
+                            },
+                            "tint_color": "solid_brand"
+                        },
+                        "texts": {
+                            "title": {
+                                "text": "Номер сейфа",
+                                "typeface": "footnote1",
+                                "text_color": "secondary",
+                                "margins": {
+                                    "bottom": "4x"
+                                },
+                                "max_lines": 0
+                            },
+                            "subtitle": {
+                                "text": "Сейф №333/711",
+                                "typeface": "body1",
+                                "text_color": "default",
+                                "margins": {
+                                    "bottom": "2x"
+                                },
+                                "max_lines": 0
+                            },
+                            "caption": {
+                                "text": "г.Москва, ул. Волжский бульвар, квартал 113А, корп. 1",
+                                "typeface": "footnote1",
+                                "text_color": "secondary",
+                                "max_lines": 0
+                            }
+                        }
+                    },
+                    "divider": {
+                        "style": "default",
+                        "size": "d5"
+                    }
+                },
+                {
+                    "type": "left_right_cell_view",
+                    "paddings": {
+                        "top": "6x",
+                        "right": "6x",
+                        "bottom": "6x",
+                        "left": "6x"
+                    },
+                    "left": {
+                        "type": "simple_left_view",
+                        "icon": {
+                            "address": {
+                                "type": "local",
+                                "identificator": "clock"
+                            },
+                            "size": {
+                                "width": "medium",
+                                "height": "medium"
+                            },
+                            "margins": {
+                                "top": "5x",
+                                "right": "6x",
+                                "bottom": "5x",
+                                "left": "8x"
+                            },
+                            "tint_color": "solid_brand"
+                        },
+                        "texts": {
+                            "title": {
+                                "text": "Новый срок",
+                                "typeface": "footnote1",
+                                "text_color": "secondary",
+                                "margins": {
+                                    "bottom": "4x"
+},
+                                "max_lines": 0
+                            },
+                            "subtitle": {
+                                "text": "До 20 февраля 2022 года",
+                                "typeface": "body1",
+                                "text_color": "default",
+                                "margins": {
+                                    "bottom": "2x"
+                                },
+                                "max_lines": 0
+                            },
+                            "caption": {
+                                "text": "Количество дней: 191",
+                                "typeface": "footnote1",
+                                "text_color": "secondary",
+                                "max_lines": 0
+                            }
+                        }
+                    },
+                    "divider": {
+                        "style": "default",
+                        "size": "d5"
+                    }
+                },
+                {
+                    "type": "left_right_cell_view",
+                    "paddings": {
+                        "top": "6x",
+                        "right": "6x",
+                        "bottom": "6x",
+                        "left": "6x"
+                    },
+                    "left": {
+                        "type": "simple_left_view",
+                        "icon": {
+                            "address": {
+                                "type": "local",
+                                "identificator": "moneybag"
+                            },
+                            "size": {
+                                "width": "medium",
+                                "height": "medium"
+                            },
+                            "margins": {
+                                "top": "5x",
+                                "right": "6x",
+                                "bottom": "5x",
+                                "left": "8x"
+                            },
+                            "tint_color": "solid_brand"
+                        },
+                        "texts": {
+                            "title": {
+                                "text": "Cтоимость",
+                                "typeface": "footnote1",
+                                "text_color": "secondary",
+                                "margins": {
+                                    "bottom": "4x"
+                                },
+                                "max_lines": 0
+                            },
+                            "subtitle": {
+                                "text": "9 000 ₽",
+                                "typeface": "body1",
+                                "text_color": "default",
+                                "margins": {
+                                    "bottom": "2x"
+                                },
+                                "max_lines": 0
+                            },
+                            "caption": {
+                                "text": "",
+                                "typeface": "footnote1",
+                                "text_color": "secondary",
+                                "max_lines": 0
+                            }
+                        }
+                    },
+                    "divider": {
+                        "style": "default",
+                        "size": "d5"
+                    }
+                },
+                {
+                    "type": "left_right_cell_view",
+                    "paddings": {
+                        "top": "6x",
+                        "right": "6x",
+                        "bottom": "6x",
+                        "left": "6x"
+                    },
+                    "left": {
+                        "type": "simple_left_view",
+                        "icon": {
+                            "address": {
+                                "type": "local",
+                                "identificator": "atm_banknote"
+                            },
+                            "size": {
+"width": "medium",
+                                "height": "medium"
+                            },
+                            "margins": {
+                                "top": "5x",
+                                "right": "6x",
+                                "bottom": "5x",
+                                "left": "8x"
+                            },
+                            "tint_color": "solid_brand"
+                        },
+                        "texts": {
+                            "title": {
+                                "text": "Тариф за день",
+                                "typeface": "footnote1",
+                                "text_color": "secondary",
+                                "margins": {
+                                    "bottom": "4x"
+                                },
+                                "max_lines": 0
+                            },
+                            "subtitle": {
+                                "text": "40 ₽",
+                                "typeface": "body1",
+                                "text_color": "default",
+                                "max_lines": 0
+                            }
+                        }
+                    }
+                }
+            ]
         }
-      },
-      "right": {
-        "type": "disclosure_right_view",
-        "margins": {
-          "top": "8x",
-          "right": "4x",
-          "bottom": "8x"
-        }
-      },
-      "divider": {
-        "style": "default",
-        "size": "d5"
-      },
-      "actions": [
-        {
-          "type": "text",
-          "text": "Рассказать о рассрочке"
-        }
-      ]
-    },
-    {
-      "type": "left_right_cell_view",
-      "left": {
-        "type": "simple_left_view",
-        "icon": {
-          "address": {
-            "type": "local",
-            "identificator": "basket"
-          },
-          "size": {
-            "width": "medium",
-            "height": "medium"
-          },
-          "margins": {
-            "top": "5x",
-            "right": "6x",
-            "bottom": "5x",
-            "left": "8x"
-          },
-          "tint_color": "solid_brand"
-        },
-        "title": {
-          "text": "Как покупать в рассрочку",
-          "typeface": "body1",
-          "text_color": "default",
-          "margins": {
-            "top": "9x",
-            "bottom": "9x"
-          }
-        }
-      },
-      "right": {
-        "type": "disclosure_right_view",
-        "margins": {
-          "top": "8x",
-          "right": "4x",
-          "bottom": "8x"
-        }
-      },
-      "divider": {
-        "style": "default",
-        "size": "d5"
-      },
-      "actions": [
-        {
-          "type": "text",
-          "text": "Как покупать в рассрочку"
-        }
-      ]
-    },
-    {
-      "type": "left_right_cell_view",
-      "left": {
-        "type": "simple_left_view",
-        "icon": {
-          "address": {
-            "type": "local",
-            "identificator": "document_magnifying_glass"
-          },
-          "size": {
-            "width": "medium",
-            "height": "medium"
-          },
-          "margins": {
-            "top": "5x",
-            "right": "6x",
-            "bottom": "5x",
-            "left": "8x"
-          },
-          "tint_color": "solid_brand"
-        },
-        "title": {
-          "text": "Мою заявку одобрили",
-          "typeface": "body1",
-          "text_color": "default",
-          "margins": {
-            "top": "9x",
-            "bottom": "9x"
-          }
-        }
-      },
-      "right": {
-        "type": "disclosure_right_view",
-        "margins": {
-          "top": "8x",
-          "right": "4x",
-          "bottom": "8x"
-        }
-      },
-      "divider": {
-        "style": "default",
-        "size": "d5"
-      },
-      "actions": [
-        {
-          "type": "text",
-          "text": "Мою заявку одобрили"
-        }
-      ]
-    },
-    {
-      "type": "left_right_cell_view",
-      "left": {
-        "type": "simple_left_view",
-        "icon": {
-          "address": {
-            "type": "local",
-            "identificator": "clock"
-          },
-          "size": {
-            "width": "medium",
-            "height": "medium"
-          },
-          "margins": {
-            "top": "5x",
-            "right": "6x",
-            "bottom": "5x",
-            "left": "8x"
-          },
-          "tint_color": "solid_brand"
-        },
-        "title": {
-          "text": "Сколько ждать одобрения",
-          "typeface": "body1",
-          "text_color": "default",
-          "margins": {
-"top": "9x",
-            "bottom": "9x"
-          }
-        }
-      },
-      "right": {
-        "type": "disclosure_right_view",
-        "margins": {
-          "top": "8x",
-          "right": "4x",
-          "bottom": "8x"
-        }
-      },
-      "actions": [
-        {
-          "type": "text",
-          "text": "Сколько ждать одобрения"
-        }
-      ]
-    }
-  ]
-}
 
