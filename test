@@ -98,7 +98,7 @@
                                 "text_color": "secondary",
                                 "margins": {
                                     "bottom": "4x"
-},
+                                },
                                 "max_lines": 0
                             },
                             "subtitle": {
@@ -136,7 +136,7 @@
                         "icon": {
                             "address": {
                                 "type": "local",
-                                "identificator": "moneybag"
+                                "identificator": "color_total"
                             },
                             "size": {
                                 "width": "medium",
@@ -198,7 +198,7 @@
                                 "identificator": "atm_banknote"
                             },
                             "size": {
-"width": "medium",
+                                "width": "medium",
                                 "height": "medium"
                             },
                             "margins": {
@@ -230,4 +230,3 @@
                 }
             ]
         }
-
