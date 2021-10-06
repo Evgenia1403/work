@@ -1,214 +1,300 @@
 {
-                      "type": "list_card",
-                      "paddings": {
-                        "top": "4x",
-                        "bottom": "4x"
-                      },
-                      "cells": [
-                        {
-                          "type": "left_right_cell_view",
-                          "left": {
-                            "type": "simple_left_view",
-                            "icon": {
-                              "address": {
+            "type": "list_card",
+            "paddings": {
+                "top": "4x",
+                "bottom": "4x"
+            },
+            "cells": [
+                {
+                    "type": "left_right_cell_view",
+                    "left": {
+                        "type": "simple_left_view",
+                        "icon": {
+                            "address": {
                                 "type": "local",
-                                "identificator": "car"
-                              },
-                              "size": {
+                                "identificator": "safe"
+                            },
+                            "size": {
                                 "width": "medium",
                                 "height": "medium"
-                              },
-                              "margins": {
+                            },
+                            "margins": {
                                 "top": "5x",
                                 "right": "6x",
                                 "bottom": "5x",
                                 "left": "8x"
-                              },
-                              "tint_color": "solid_brand"
                             },
-                            "title": {
-                              "text": "Возврат средств после отмены покупки",
-                              "typeface": "body1",
-                              "text_color": "default",
-                              "margins": {
-                                "top": "9x",
-                                "bottom": "9x"
-                              }
-                            }
-                          },
-                           "right": {
-                            "type": "disclosure_right_view",
-                            "margins": {
-                              "top": "8x",
-                              "right": "4x",
-                              "bottom": "8x"
-                            }
-                          },
-                          "divider": {
-                            "style": "default",
-                            "size": "d5"
-                          },
-
-                          "actions": [
-                            {
-                              "type": "text",
-                              "text": "Порядок  отмены покупки/возврата товара"
-                            }
-                          ]
+                            "tint_color": "solid_brand"
                         },
-                        {
-                          "type": "left_right_cell_view",
-                          "left": {
-                            "type": "simple_left_view",
-                            "icon": {
-                              "address": {
-                                "type": "local",
-                                "identificator": "bar_graph"
-                              },
-                              "size": {
-                                "width": "medium",
-                                "height": "medium"
-                              },
-                              "margins": {
-                                "top": "5x",
-                                "right": "6x",
-                                "bottom": "5x",
-                                "left": "8x"
-                              },
-                              "tint_color": "solid_brand"
-                            },
+                        "texts": {
                             "title": {
-                              "text": "Порядок  отмены покупки/возврата товара",
-                              "typeface": "body1",
-                              "text_color": "default",
-                              "margins": {
-                                "top": "9x",
-                                "bottom": "9x"
-                              }
-                            }
-                          },
-                           "right": {
-                            "type": "disclosure_right_view",
-                            "margins": {
-                              "top": "8x",
-                              "right": "4x",
-                              "bottom": "8x"
-                            }
-                          },
-                          "divider": {
-                            "style": "default",
-                            "size": "d5"
-                          },
-
-                          "actions": [
-                            {
-                              "type": "text",
-                              "text": "Продали некачественный товар"
-                            }
-                            ,
-                            {
-                          "type": "left_right_cell_view",
-                          "left": {
-                            "type": "simple_left_view",
-                            "icon": {
-                              "address": {
-                                "type": "local",
-                                "identificator": "bar_graph"
-                              },
-                              "size": {
-                                "width": "medium",
-                                "height": "medium"
-                              },
-                              "margins": {
-                                "top": "5x",
-                                "right": "6x",
-                                "bottom": "5x",
-                                "left": "8x"
-                              },
-                              "tint_color": "solid_brand"
+                                "text": "Сейф 1/96\nдо 3 января 2020",
+                                "typeface": "body1",
+                                "text_color": "default",
+                                "margins": {
+                                    "bottom": "4x"
+                                },
+                                "max_lines": 0
                             },
-                            "title": {
-                              "text": "Кто платит проценты при возврате/отмене покупки",
-                              "typeface": "body1",
-                              "text_color": "default",
-                              "margins": {
-                                "top": "9x",
-                                "bottom": "9x"
-                              }
-                            }
-                          },
-                           "right": {
-                            "type": "disclosure_right_view",
-                            "margins": {
-                              "top": "8x",
-                              "right": "4x",
-                              "bottom": "8x"
-                            }
-                          },
-                          "divider": {
-                            "style": "default",
-                            "size": "d5"
-                          },
-
-                          "actions": [
-                            {
-                              "type": "text",
-                              "text": ""
-                            }
-                          ]
-                        },
-                        {
-                          "type": "left_right_cell_view",
-                          "left": {
-                            "type": "simple_left_view",
-                            "icon": {
-                              "address": {
-                                "type": "local",
-                                "identificator": "bar_graph"
-                              },
-                              "size": {
-                                "width": "medium",
-                                "height": "medium"
-                              },
-                              "margins": {
-                                "top": "5x",
-                                "right": "6x",
-                                "bottom": "5x",
-                                "left": "8x"
-                              },
-                              "tint_color": "solid_brand"
+                            "subtitle": {
+                                "text": "г.Москва, ул. Волжский бульвар, квартал 113А, корп. 1",
+                                "typeface": "footnote1",
+                                "text_color": "secondary",
+                                "margins": {
+                                    "bottom": "4x"
+                                },
+                                "max_lines": 0
                             },
-                            "title": {
-                              "text": "Продали некачественный товар",
-                              "typeface": "body1",
-                              "text_color": "default",
-                              "margins": {
-                                "top": "9x",
-                                "bottom": "9x"
-                              }
+                            "caption": {
+                                "text": "Истек срок аренды и комиссия банка открыла сейф",
+                                "typeface": "footnote1",
+                                "text_color": "warning",
+                                "max_lines": 0
                             }
-                          },
-                           "right": {
-                            "type": "disclosure_right_view",
-                            "margins": {
-                              "top": "8x",
-                              "right": "4x",
-                              "bottom": "8x"
-                            }
-                          },
-                          "divider": {
-                            "style": "default",
-                            "size": "d5"
-                          },
-
-                          "actions": [
-                            {
-                              "type": "text",
-                              "text": "Продали некачественный товар"
-                            }
-                          ]
                         }
-                          ]
+                    },
+                    "right": {
+                        "type": "disclosure_right_view",
+                        "margins": {
+                            "top": "8x",
+                            "right": "4x",
+                            "bottom": "8x"
                         }
-                                             ]
+                    },
+                    "divider": {
+                        "style": "default",
+                        "size": "d5"
+                    },
+                    "actions": [
+                        {
+                            "type": "text",
+                            "text": "Сейф 1/96"
+                        }
+                    ],
+                    "paddings": {
+                        "top": "8x",
+                        "right": "4x",
+                        "bottom": "8x",
+                        "left": "4x"
                     }
+                },
+                {
+                    "type": "left_right_cell_view",
+                    "left": {
+                        "type": "simple_left_view",
+                        "icon": {
+                            "address": {
+                                "type": "local",
+                                "identificator": "safe"
+                            },
+                            "size": {
+                                "width": "medium",
+                                "height": "medium"
+                            },
+                            "margins": {
+                                "top": "5x",
+                                "right": "6x",
+                                "bottom": "5x",
+                                "left": "8x"
+                            },
+                            "tint_color": "solid_brand"
+                        },
+"texts": {
+                            "title": {
+                                "text": "Сейф 1/99\nдо 2 июня 2022",
+                                "typeface": "body1",
+                                "text_color": "default",
+                                "margins": {
+                                    "bottom": "4x"
+                                },
+                                "max_lines": 0
+                            },
+                            "subtitle": {
+                                "text": "г.Москва, ул. Волжский бульвар, квартал 113А, корп. 1",
+                                "typeface": "footnote1",
+                                "text_color": "secondary",
+                                "margins": {
+                                    "bottom": "4x"
+                                },
+                                "max_lines": 0
+                            },
+                            "caption": {
+                                "text": " ",
+                                "typeface": "footnote1",
+                                "text_color": "warning",
+                                "max_lines": 0
+                            }
+                        }
+                    },
+                    "right": {
+                        "type": "disclosure_right_view",
+                        "margins": {
+                            "top": "8x",
+                            "right": "4x",
+                            "bottom": "8x"
+                        }
+                    },
+                    "divider": {
+                        "style": "default",
+                        "size": "d5"
+                    },
+                    "actions": [
+                        {
+                            "type": "text",
+                            "text": "Сейф 1/99"
+                        }
+                    ],
+                    "paddings": {
+                        "top": "8x",
+                        "right": "4x",
+                        "bottom": "8x",
+                        "left": "4x"
+                    }
+                },
+                {
+                    "type": "left_right_cell_view",
+                    "left": {
+                        "type": "simple_left_view",
+                        "icon": {
+                            "address": {
+                                "type": "local",
+                                "identificator": "safe"
+                            },
+                            "size": {
+                                "width": "medium",
+                                "height": "medium"
+                            },
+                            "margins": {
+                                "top": "5x",
+                                "right": "6x",
+                                "bottom": "5x",
+                                "left": "8x"
+                            },
+                            "tint_color": "solid_brand"
+                        },
+                        "texts": {
+                            "title": {
+                                "text": "Сейф 2/4\nдо 11 марта 2020",
+                                "typeface": "body1",
+                                "text_color": "default",
+                                "margins": {
+                                    "bottom": "4x"
+                                },
+                                "max_lines": 0
+                            },
+                            "subtitle": {
+                                "text": "г.Москва, ул. Волжский бульвар, квартал 113А, корп. 1",
+                                "typeface": "footnote1",
+                                "text_color": "secondary",
+                                "margins": {
+                                    "bottom": "4x"
+                                },
+                                "max_lines": 0
+                            },
+                            "caption": {
+                                "text": "Истекает срок аренды",
+                                "typeface": "footnote1",
+"text_color": "warning",
+                                "max_lines": 0
+                            }
+                        }
+                    },
+                    "right": {
+                        "type": "disclosure_right_view",
+                        "margins": {
+                            "top": "8x",
+                            "right": "4x",
+                            "bottom": "8x"
+                        }
+                    },
+                    "divider": {
+                        "style": "default",
+                        "size": "d5"
+                    },
+                    "actions": [
+                        {
+                            "type": "text",
+                            "text": "Сейф 2/4"
+                        }
+                    ],
+                    "paddings": {
+                        "top": "8x",
+                        "right": "4x",
+                        "bottom": "8x",
+                        "left": "4x"
+                    }
+                },
+                {
+                    "type": "left_right_cell_view",
+                    "left": {
+                        "type": "simple_left_view",
+                        "icon": {
+                            "address": {
+                                "type": "local",
+                                "identificator": "safe"
+                            },
+                            "size": {
+                                "width": "medium",
+                                "height": "medium"
+                            },
+                            "margins": {
+                                "top": "5x",
+                                "right": "6x",
+                                "bottom": "5x",
+                                "left": "8x"
+                            },
+                            "tint_color": "solid_brand"
+                        },
+                        "texts": {
+                            "title": {
+                                "text": "Сейф 333/711\nдо 13 августа 2021",
+                                "typeface": "body1",
+                                "text_color": "default",
+                                "margins": {
+                                    "bottom": "4x"
+                                },
+                                "max_lines": 0
+                            },
+                            "subtitle": {
+                                "text": "г.Москва, ул. Волжский бульвар, квартал 113А, корп. 1",
+                                "typeface": "footnote1",
+                                "text_color": "secondary",
+                                "margins": {
+                                    "bottom": "4x"
+                                },
+                                "max_lines": 0
+                            },
+                            "caption": {
+                                "text": "Истекает срок аренды",
+                                "typeface": "footnote1",
+                                "text_color": "warning",
+                                "max_lines": 0
+                            }
+                        }
+                    },
+                    "right": {
+                        "type": "disclosure_right_view",
+                        "margins": {
+                            "top": "8x",
+                            "right": "4x",
+                            "bottom": "8x"
+                        }
+                    },
+                    "actions": [
+                        {
+                            "type": "text",
+                            "text": "Сейф 333/711"
+                        }
+                    ],
+                    "paddings": {
+                        "top": "8x",
+                        "right": "4x",
+                        "bottom": "8x",
+                        "left": "4x"
+                    }
+                }
+            ]
+        }
+    
+
+
