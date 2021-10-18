@@ -1,300 +1,205 @@
 {
-            "type": "list_card",
-            "paddings": {
-                "top": "4x",
-                "bottom": "4x"
-            },
-            "cells": [
-                {
-                    "type": "left_right_cell_view",
-                    "left": {
-                        "type": "simple_left_view",
-                        "icon": {
-                            "address": {
+                      "type": "list_card",
+                      "paddings": {
+                        "top": "4x",
+                        "bottom": "4x"
+                      },
+                      "cells": [
+                        {
+                          "type": "left_right_cell_view",
+                          "left": {
+                            "type": "simple_left_view",
+                            "icon": {
+                              "address": {
                                 "type": "local",
-                                "identificator": "safe"
-                            },
-                            "size": {
+                                "identificator": "info"
+                              },
+                              "size": {
                                 "width": "medium",
                                 "height": "medium"
-                            },
-                            "margins": {
+                              },
+                              "margins": {
                                 "top": "5x",
                                 "right": "6x",
                                 "bottom": "5x",
                                 "left": "8x"
+                              },
+                              "tint_color": "solid_brand"
                             },
-                            "tint_color": "solid_brand"
-                        },
-                        "texts": {
                             "title": {
-                                "text": "Сейф 1/96\nдо 3 января 2020",
-                                "typeface": "body1",
-                                "text_color": "default",
-                                "margins": {
-                                    "bottom": "4x"
-                                },
-                                "max_lines": 0
-                            },
-                            "subtitle": {
-                                "text": "г.Москва, ул. Волжский бульвар, квартал 113А, корп. 1",
-                                "typeface": "footnote1",
-                                "text_color": "secondary",
-                                "margins": {
-                                    "bottom": "4x"
-                                },
-                                "max_lines": 0
-                            },
-                            "caption": {
-                                "text": "Истек срок аренды и комиссия банка открыла сейф",
-                                "typeface": "footnote1",
-                                "text_color": "warning",
-                                "max_lines": 0
+                              "text": "Рассказать о рассрочке",
+                              "typeface": "body1",
+                              "text_color": "default",
+                              "margins": {
+                                "top": "9x",
+                                "bottom": "9x"
+                              }
                             }
-                        }
-                    },
-                    "right": {
-                        "type": "disclosure_right_view",
-                        "margins": {
-                            "top": "8x",
-                            "right": "4x",
-                            "bottom": "8x"
-                        }
-                    },
-                    "divider": {
-                        "style": "default",
-                        "size": "d5"
-                    },
-                    "actions": [
+                          },
+                          "right": {
+                            "type": "disclosure_right_view",
+                            "margins": {
+                              "top": "8x",
+                              "right": "4x",
+                              "bottom": "8x"
+                            }
+                          },
+                          "divider": {
+                            "style": "default",
+                            "size": "d5"
+                          },
+                          "actions": [
+                            {
+                              "type": "text",
+                              "text": "Рассказать о рассрочке"
+                            }
+                          ]
+                        },
                         {
-                            "type": "text",
-                            "text": "Сейф 1/96"
-                        }
-                    ],
-                    "paddings": {
-                        "top": "8x",
-                        "right": "4x",
-                        "bottom": "8x",
-                        "left": "4x"
-                    }
-                },
-                {
-                    "type": "left_right_cell_view",
-                    "left": {
-                        "type": "simple_left_view",
-                        "icon": {
-                            "address": {
+                          "type": "left_right_cell_view",
+                          "left": {
+                            "type": "simple_left_view",
+                            "icon": {
+                              "address": {
                                 "type": "local",
-                                "identificator": "safe"
-                            },
-                            "size": {
+                                "identificator": "basket"
+                              },
+                              "size": {
                                 "width": "medium",
                                 "height": "medium"
-                            },
-                            "margins": {
+                              },
+                              "margins": {
                                 "top": "5x",
                                 "right": "6x",
                                 "bottom": "5x",
                                 "left": "8x"
+                              },
+                              "tint_color": "solid_brand"
                             },
-                            "tint_color": "solid_brand"
-                        },
-"texts": {
                             "title": {
-                                "text": "Сейф 1/99\nдо 2 июня 2022",
-                                "typeface": "body1",
-                                "text_color": "default",
-                                "margins": {
-                                    "bottom": "4x"
-                                },
-                                "max_lines": 0
-                            },
-                            "subtitle": {
-                                "text": "г.Москва, ул. Волжский бульвар, квартал 113А, корп. 1",
-                                "typeface": "footnote1",
-                                "text_color": "secondary",
-                                "margins": {
-                                    "bottom": "4x"
-                                },
-                                "max_lines": 0
-                            },
-                            "caption": {
-                                "text": " ",
-                                "typeface": "footnote1",
-                                "text_color": "warning",
-                                "max_lines": 0
+                              "text": "Как покупать в рассрочку",
+                              "typeface": "body1",
+                              "text_color": "default",
+                              "margins": {
+                                "top": "9x",
+                                "bottom": "9x"
+                              }
                             }
-                        }
-                    },
-                    "right": {
-                        "type": "disclosure_right_view",
-                        "margins": {
-                            "top": "8x",
-                            "right": "4x",
-                            "bottom": "8x"
-                        }
-                    },
-                    "divider": {
-                        "style": "default",
-                        "size": "d5"
-                    },
-                    "actions": [
+                          },
+                          "right": {
+                            "type": "disclosure_right_view",
+                            "margins": {
+                              "top": "8x",
+                              "right": "4x",
+                              "bottom": "8x"
+                            }
+                          },
+                          "divider": {
+                            "style": "default",
+                            "size": "d5"
+                          },
+                          "actions": [
+                            {
+                              "type": "text",
+                              "text": "Как покупать в рассрочку"
+                            }
+                          ]
+                        },
                         {
-                            "type": "text",
-                            "text": "Сейф 1/99"
-                        }
-                    ],
-                    "paddings": {
-                        "top": "8x",
-                        "right": "4x",
-                        "bottom": "8x",
-                        "left": "4x"
-                    }
-                },
-                {
-                    "type": "left_right_cell_view",
-                    "left": {
-                        "type": "simple_left_view",
-                        "icon": {
-                            "address": {
+                          "type": "left_right_cell_view",
+                          "left": {
+                            "type": "simple_left_view",
+                            "icon": {
+                              "address": {
                                 "type": "local",
-                                "identificator": "safe"
-                            },
-                            "size": {
+                                "identificator": "document_magnifying_glass"
+                              },
+                              "size": {
                                 "width": "medium",
                                 "height": "medium"
-                            },
-                            "margins": {
+                              },
+                              "margins": {
                                 "top": "5x",
                                 "right": "6x",
                                 "bottom": "5x",
                                 "left": "8x"
+                              },
+                              "tint_color": "solid_brand"
                             },
-                            "tint_color": "solid_brand"
-                        },
-                        "texts": {
                             "title": {
-                                "text": "Сейф 2/4\nдо 11 марта 2020",
-                                "typeface": "body1",
-                                "text_color": "default",
-                                "margins": {
-                                    "bottom": "4x"
-                                },
-                                "max_lines": 0
-                            },
-                            "subtitle": {
-                                "text": "г.Москва, ул. Волжский бульвар, квартал 113А, корп. 1",
-                                "typeface": "footnote1",
-                                "text_color": "secondary",
-                                "margins": {
-                                    "bottom": "4x"
-                                },
-                                "max_lines": 0
-                            },
-                            "caption": {
-                                "text": "Истекает срок аренды",
-                                "typeface": "footnote1",
-"text_color": "warning",
-                                "max_lines": 0
+                              "text": "Мою заявку одобрили",
+                              "typeface": "body1",
+                              "text_color": "default",
+                              "margins": {
+                                "top": "9x",
+                                "bottom": "9x"
+                              }
                             }
-                        }
-                    },
-                    "right": {
-                        "type": "disclosure_right_view",
-                        "margins": {
-                            "top": "8x",
-                            "right": "4x",
-                            "bottom": "8x"
-                        }
-                    },
-                    "divider": {
-                        "style": "default",
-                        "size": "d5"
-                    },
-                    "actions": [
+                          },
+                          "right": {
+                            "type": "disclosure_right_view",
+                            "margins": {
+                              "top": "8x",
+                              "right": "4x",
+                              "bottom": "8x"
+                            }
+                          },
+                          "divider": {
+                            "style": "default",
+                            "size": "d5"
+                          },
+                          "actions": [
+                            {
+                              "type": "text",
+                              "text": "Мою заявку одобрили"
+                            }
+                          ]
+                        },
                         {
-                            "type": "text",
-                            "text": "Сейф 2/4"
-                        }
-                    ],
-                    "paddings": {
-                        "top": "8x",
-                        "right": "4x",
-                        "bottom": "8x",
-                        "left": "4x"
-                    }
-                },
-                {
-                    "type": "left_right_cell_view",
-                    "left": {
-                        "type": "simple_left_view",
-                        "icon": {
-                            "address": {
+                          "type": "left_right_cell_view",
+                          "left": {
+                            "type": "simple_left_view",
+                            "icon": {
+                              "address": {
                                 "type": "local",
-                                "identificator": "safe"
-                            },
-                            "size": {
+                                "identificator": "clock"
+                              },
+                              "size": {
                                 "width": "medium",
                                 "height": "medium"
-                            },
-                            "margins": {
+                              },
+                              "margins": {
                                 "top": "5x",
                                 "right": "6x",
                                 "bottom": "5x",
                                 "left": "8x"
+                              },
+                              "tint_color": "solid_brand"
                             },
-                            "tint_color": "solid_brand"
-                        },
-                        "texts": {
                             "title": {
-                                "text": "Сейф 333/711\nдо 13 августа 2021",
-                                "typeface": "body1",
-                                "text_color": "default",
-                                "margins": {
-                                    "bottom": "4x"
-                                },
-                                "max_lines": 0
-                            },
-                            "subtitle": {
-                                "text": "г.Москва, ул. Волжский бульвар, квартал 113А, корп. 1",
-                                "typeface": "footnote1",
-                                "text_color": "secondary",
-                                "margins": {
-                                    "bottom": "4x"
-                                },
-                                "max_lines": 0
-                            },
-                            "caption": {
-                                "text": "Истекает срок аренды",
-                                "typeface": "footnote1",
-                                "text_color": "warning",
-                                "max_lines": 0
+                              "text": "Сколько ждать одобрения",
+                              "typeface": "body1",
+                              "text_color": "default",
+                              "margins": {
+                                "top": "9x",
+                                "bottom": "9x"
+                              }
                             }
+                          },
+                          "right": {
+                            "type": "disclosure_right_view",
+                            "margins": {
+                              "top": "8x",
+                              "right": "4x",
+                              "bottom": "8x"
+                            }
+                          },
+                          "actions": [
+                            {
+                              "type": "text",
+                              "text": "Сколько ждать одобрения"
+                            }
+                          ]
                         }
-                    },
-                    "right": {
-                        "type": "disclosure_right_view",
-                        "margins": {
-                            "top": "8x",
-                            "right": "4x",
-                            "bottom": "8x"
-                        }
-                    },
-                    "actions": [
-                        {
-                            "type": "text",
-                            "text": "Сейф 333/711"
-                        }
-                    ],
-                    "paddings": {
-                        "top": "8x",
-                        "right": "4x",
-                        "bottom": "8x",
-                        "left": "4x"
+                      ]
                     }
-                }
-            ]
-        }
-    
-
-
