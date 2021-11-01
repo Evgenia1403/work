@@ -5,7 +5,7 @@
                 "type": "greeting_grid_item",
                 "top_text": {
                     "type": "text_cell_view",
-                    "text": "РЎРћР‘Р•РЎР•Р”РќР˜Рљ",
+                    "text": "test",
                     "typeface": "caption",
                     "text_color": "default"
                 },
@@ -28,7 +28,7 @@
                 "actions": [
                     {
                     "type": "text",
-                        "text": "РљР°РєР°СЏ РІС‹СЃРѕС‚Р° Р¬РІРµСЂРµСЃС‚Р°?"
+                        "text": "test"
                     }
                 ]
             },
@@ -36,13 +36,13 @@
                 "type": "greeting_grid_item",
                 "top_text": {
                     "type": "text_cell_view",
-                    "text": "РљРћРЁР•Р›Р•Рљ",
+                    "text": "test",
                     "typeface": "caption",
                     "text_color": "default"
                 },
                 "bottom_text": {
                     "type": "text_cell_view",
-                    "text": "РЎРєРѕР»СЊРєРѕ Сѓ РјРµРЅСЏ РґРµРЅРµРі?",
+                    "text": "test",
                     "typeface": "body3",
                     "text_color": "default",
                     "max_lines": 3,
@@ -59,7 +59,7 @@
                 "actions": [
                     {                    
                     "type": "text",
-                        "text": "РЎРєРѕР»СЊРєРѕ Сѓ РјРµРЅСЏ РґРµРЅРµРі?"
+                        "text": "test"
                     }
                 ]
             },
@@ -67,13 +67,13 @@
                 "type": "greeting_grid_item",
                 "top_text": {
                     "type": "text_cell_view",
-                    "text": "РџРћР“РћР”Рђ",
+                    "text": "test",
                     "typeface": "caption",
                     "text_color": "default"
                 },
                 "bottom_text": {
                     "type": "text_cell_view",
-                   "text": "РљР°РєР°СЏ РїРѕРіРѕРґР° РІРµС‡РµСЂРѕРј РІ РњРѕСЃРєРІРµ?",
+                   "text": "test",
                     "typeface": "body3",
                     "text_color": "default",
                     "max_lines": 3,
@@ -90,7 +90,7 @@
                 "actions": [
                     {
                     "type": "text",
-                        "text": "РљР°РєР°СЏ РїРѕРіРѕРґР° РІРµС‡РµСЂРѕРј РІ РњРѕСЃРєРІРµ?"
+                        "text": "test"
                     }
                 ]
             },
@@ -98,13 +98,13 @@
                 "type": "greeting_grid_item",
                 "top_text": {
                     "type": "text_cell_view",
-                    "text": "РџР•Р Р•Р’РћР”",
+                    "text": "test",
                     "typeface": "caption",
                     "text_color": "default"
                 },
                 "bottom_text": {
                     "type": "text_cell_view",
-                    "text": "РћС‚РїСЂР°РІСЊ РјР°РјРµ 500 СЂСѓР±Р»РµР№",
+                    "text": "test",
                     "typeface": "body3",
                     "text_color": "default",
                     "max_lines": 3,
@@ -121,7 +121,7 @@
                 "actions": [
                     {
                     "type": "text",
-                        "text": "РћС‚РїСЂР°РІСЊ РјР°РјРµ 500 СЂСѓР±Р»РµР№"
+                        "text": "rest"
                     }
                 ]
             }
@@ -155,7 +155,7 @@
               "tint_color": "solid_brand"
             },
             "title": {
-              "text": "Р“Р»Р°РІРЅС‹Р№ СЌРєСЂР°РЅ",
+              "text": "test",
               "typeface": "body1",
               "text_color": "default",
               "max_lines": 1,
