@@ -1,16 +1,184 @@
-   {
-  "cells": [
-    {
-      "content": {
-        "hash": "c0e60cbbc8603f514672a48cc9f4f04d",
-        "size": {
-          "aspect_ratio": 1.0,
-          "width": "resizable"
-        },
-        "url": "https://www.dmosk.ru/img/contact/qr_code_contact.jpg"
-      },
-      "type": "image_cell_view"
+{
+        "type": "grid_card",
+        "items": [
+            {
+                "type": "greeting_grid_item",
+                "top_text": {
+                    "type": "text_cell_view",
+                    "text": "РЎРћР‘Р•РЎР•Р”РќР˜Рљ",
+                    "typeface": "caption",
+                    "text_color": "default"
+                },
+                "bottom_text": {
+                    "type": "text_cell_view",
+                    "text": "РљР°РєР°СЏ РІС‹СЃРѕС‚Р° Р¬РІРµСЂРµСЃС‚Р°?",
+                    "typeface": "body3",
+                    "text_color": "default",
+                    "max_lines": 3,
+                    "margins": {
+                        "top": "4x"
+                    }
+                },
+                "paddings": {
+                    "top": "6x",
+                    "left": "6x",
+                    "right": "6x",
+                    "bottom": "6x"
+                },
+                "actions": [
+                    {
+                    "type": "text",
+                        "text": "РљР°РєР°СЏ РІС‹СЃРѕС‚Р° Р¬РІРµСЂРµСЃС‚Р°?"
+                    }
+                ]
+            },
+            {
+                "type": "greeting_grid_item",
+                "top_text": {
+                    "type": "text_cell_view",
+                    "text": "РљРћРЁР•Р›Р•Рљ",
+                    "typeface": "caption",
+                    "text_color": "default"
+                },
+                "bottom_text": {
+                    "type": "text_cell_view",
+                    "text": "РЎРєРѕР»СЊРєРѕ Сѓ РјРµРЅСЏ РґРµРЅРµРі?",
+                    "typeface": "body3",
+                    "text_color": "default",
+                    "max_lines": 3,
+                    "margins": {
+                        "top": "4x"
+                    }
+                },
+                "paddings": {
+                    "top": "6x",
+                    "left": "6x",
+                    "right": "6x",
+                    "bottom": "6x"
+                },
+                "actions": [
+                    {                    
+                    "type": "text",
+                        "text": "РЎРєРѕР»СЊРєРѕ Сѓ РјРµРЅСЏ РґРµРЅРµРі?"
+                    }
+                ]
+            },
+            {
+                "type": "greeting_grid_item",
+                "top_text": {
+                    "type": "text_cell_view",
+                    "text": "РџРћР“РћР”Рђ",
+                    "typeface": "caption",
+                    "text_color": "default"
+                },
+                "bottom_text": {
+                    "type": "text_cell_view",
+                   "text": "РљР°РєР°СЏ РїРѕРіРѕРґР° РІРµС‡РµСЂРѕРј РІ РњРѕСЃРєРІРµ?",
+                    "typeface": "body3",
+                    "text_color": "default",
+                    "max_lines": 3,
+                    "margins": {
+                        "top": "4x"
+                    }
+                },
+                "paddings": {
+                    "top": "6x",
+                    "left": "6x",
+                    "right": "6x",
+                    "bottom": "6x"
+                },
+                "actions": [
+                    {
+                    "type": "text",
+                        "text": "РљР°РєР°СЏ РїРѕРіРѕРґР° РІРµС‡РµСЂРѕРј РІ РњРѕСЃРєРІРµ?"
+                    }
+                ]
+            },
+            {
+                "type": "greeting_grid_item",
+                "top_text": {
+                    "type": "text_cell_view",
+                    "text": "РџР•Р Р•Р’РћР”",
+                    "typeface": "caption",
+                    "text_color": "default"
+                },
+                "bottom_text": {
+                    "type": "text_cell_view",
+                    "text": "РћС‚РїСЂР°РІСЊ РјР°РјРµ 500 СЂСѓР±Р»РµР№",
+                    "typeface": "body3",
+                    "text_color": "default",
+                    "max_lines": 3,
+                    "margins": {
+                        "top": "4x"
+                    }
+                },
+                "paddings": {
+                    "top": "6x",
+                    "left": "6x",
+                    "right": "6x",
+                    "bottom": "6x"
+                },
+                "actions": [
+                    {
+                    "type": "text",
+                        "text": "РћС‚РїСЂР°РІСЊ РјР°РјРµ 500 СЂСѓР±Р»РµР№"
+                    }
+                ]
+            }
+        ],
+        "columns": 2,
+        "item_width": "small"
     }
-  ],
-  "type": "list_card"
-}
+
+{
+      "type": "list_card",
+      "cells": [
+        {
+          "type": "left_right_cell_view",
+          "left": {
+            "type": "simple_left_view",
+            "icon": {
+              "address": {
+                "type": "local",
+                "identificator": "house"
+              },
+              "size": {
+                "width": "medium",
+                "height": "medium"
+              },
+              "margins": {
+                "top": "5x",
+                "right": "6x",
+                "bottom": "5x",
+                "left": "8x"
+              },
+              "tint_color": "solid_brand"
+            },
+            "title": {
+              "text": "Р“Р»Р°РІРЅС‹Р№ СЌРєСЂР°РЅ",
+              "typeface": "body1",
+              "text_color": "default",
+              "max_lines": 1,
+              "margins": {
+                "top": "9x",
+                "bottom": "9x"
+              }
+            }
+          },
+          "right": {
+            "type": "disclosure_right_view",
+            "margins": {
+              "top": "8x",
+              "right": "4x",
+              "bottom": "8x"
+            }
+          },
+          "actions": [
+            {
+              "type": "deep_link",
+              "deep_link": "{% if device.platformType|lower == 'ios' %}sberbankonline://mainscreen?internal_source=audiohelper{% else %}android-app://ru.sberbankmobile/android-app/ru.sberbankmobile/main?internal_source=audiohelper{% endif %}"
+            }
+          ]
+       }
+      ]
+    }
