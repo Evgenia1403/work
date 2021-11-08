@@ -1,184 +1,255 @@
 {
-        "type": "grid_card",
-        "items": [
-            {
-                "type": "greeting_grid_item",
-                "top_text": {
-                    "type": "text_cell_view",
-                    "text": "test",
-                    "typeface": "caption",
-                    "text_color": "default"
-                },
-                "bottom_text": {
-                    "type": "text_cell_view",
-                    "text": "РљР°РєР°СЏ РІС‹СЃРѕС‚Р° Р¬РІРµСЂРµСЃС‚Р°?",
-                    "typeface": "body3",
-                    "text_color": "default",
-                    "max_lines": 3,
-                    "margins": {
-                        "top": "4x"
-                    }
-                },
-                "paddings": {
-                    "top": "6x",
-                    "left": "6x",
-                    "right": "6x",
-                    "bottom": "6x"
-                },
-                "actions": [
-                    {
-                    "type": "text",
-                        "text": "test"
-                    }
-                ]
-            },
-            {
-                "type": "greeting_grid_item",
-                "top_text": {
-                    "type": "text_cell_view",
-                    "text": "test",
-                    "typeface": "caption",
-                    "text_color": "default"
-                },
-                "bottom_text": {
-                    "type": "text_cell_view",
-                    "text": "test",
-                    "typeface": "body3",
-                    "text_color": "default",
-                    "max_lines": 3,
-                    "margins": {
-                        "top": "4x"
-                    }
-                },
-                "paddings": {
-                    "top": "6x",
-                    "left": "6x",
-                    "right": "6x",
-                    "bottom": "6x"
-                },
-                "actions": [
-                    {                    
-                    "type": "text",
-                        "text": "test"
-                    }
-                ]
-            },
-            {
-                "type": "greeting_grid_item",
-                "top_text": {
-                    "type": "text_cell_view",
-                    "text": "test",
-                    "typeface": "caption",
-                    "text_color": "default"
-                },
-                "bottom_text": {
-                    "type": "text_cell_view",
-                   "text": "test",
-                    "typeface": "body3",
-                    "text_color": "default",
-                    "max_lines": 3,
-                    "margins": {
-                        "top": "4x"
-                    }
-                },
-                "paddings": {
-                    "top": "6x",
-                    "left": "6x",
-                    "right": "6x",
-                    "bottom": "6x"
-                },
-                "actions": [
-                    {
-                    "type": "text",
-                        "text": "test"
-                    }
-                ]
-            },
-            {
-                "type": "greeting_grid_item",
-                "top_text": {
-                    "type": "text_cell_view",
-                    "text": "test",
-                    "typeface": "caption",
-                    "text_color": "default"
-                },
-                "bottom_text": {
-                    "type": "text_cell_view",
-                    "text": "test",
-                    "typeface": "body3",
-                    "text_color": "default",
-                    "max_lines": 3,
-                    "margins": {
-                        "top": "4x"
-                    }
-                },
-                "paddings": {
-                    "top": "6x",
-                    "left": "6x",
-                    "right": "6x",
-                    "bottom": "6x"
-                },
-                "actions": [
-                    {
-                    "type": "text",
-                        "text": "rest"
-                    }
-                ]
-            }
-        ],
-        "columns": 2,
-        "item_width": "small"
-    }
-
-{
-      "type": "list_card",
-      "cells": [
+  "type": "list_card",
+  "paddings": {
+    "top": "4x",
+    "bottom": "4x"
+  },
+  "cells": [
+    {
+      "type": "left_right_cell_view",
+      "left": {
+        "type": "simple_left_view",
+        "icon": {
+          "address": {
+            "type": "url",
+            "url": "https://va-res.online.sberbank.ru/VA/icons/ic_36_round_speech_bubble_cross_outline.png"
+          },
+          "size": {
+            "width": "medium",
+            "height": "medium"
+          },
+          "margins": {
+            "top": "5x",
+            "right": "6x",
+            "bottom": "5x",
+            "left": "8x"
+          },
+          "tint_color": "solid_brand"
+        },
+        "title": {
+          "text": "Порядок отмены покупки",
+          "typeface": "body1",
+          "text_color": "default",
+          "margins": {
+            "top": "9x",
+            "bottom": "9x"
+          }
+        }
+      },
+      "right": {
+        "type": "disclosure_right_view",
+        "margins": {
+          "top": "8x",
+          "right": "4x",
+          "bottom": "8x"
+        }
+      },
+      "divider": {
+        "style": "default",
+        "size": "d5"
+      },
+      "actions": [
         {
-          "type": "left_right_cell_view",
-          "left": {
-            "type": "simple_left_view",
-            "icon": {
-              "address": {
-                "type": "local",
-                "identificator": "house"
-              },
-              "size": {
-                "width": "medium",
-                "height": "medium"
-              },
-              "margins": {
-                "top": "5x",
-                "right": "6x",
-                "bottom": "5x",
-                "left": "8x"
-              },
-              "tint_color": "solid_brand"
-            },
-            "title": {
-              "text": "test",
-              "typeface": "body1",
-              "text_color": "default",
-              "max_lines": 1,
-              "margins": {
-                "top": "9x",
-                "bottom": "9x"
-              }
-            }
+          "type": "text",
+          "text": "Порядок отмены покупки"
+        }
+      ]
+    },
+    {
+      "type": "left_right_cell_view",
+      "left": {
+        "type": "simple_left_view",
+        "icon": {
+          "address": {
+            "type": "local",
+            "identificator": "clock"
           },
-          "right": {
-            "type": "disclosure_right_view",
-            "margins": {
-              "top": "8x",
-              "right": "4x",
-              "bottom": "8x"
-            }
+          "size": {
+            "width": "medium",
+            "height": "medium"
           },
-          "actions": [
-            {
-              "type": "deep_link",
-              "deep_link": "{% if device.platformType|lower == 'ios' %}sberbankonline://mainscreen?internal_source=audiohelper{% else %}android-app://ru.sberbankmobile/android-app/ru.sberbankmobile/main?internal_source=audiohelper{% endif %}"
-            }
-          ]
-       }
+          "margins": {
+            "top": "5x",
+            "right": "6x",
+            "bottom": "5x",
+            "left": "8x"
+          },
+          "tint_color": "solid_brand"
+        },
+        "title": {
+          "text": "Время ожидания возврата денег",
+          "typeface": "body1",
+          "text_color": "default",
+          "margins": {
+            "top": "9x",
+            "bottom": "9x"
+          }
+        }
+      },
+      "right": {
+        "type": "disclosure_right_view",
+        "margins": {
+          "top": "8x",
+          "right": "4x",
+          "bottom": "8x"
+        }
+      },
+      "divider": {
+        "style": "default",
+        "size": "d5"
+      },
+      "actions": [
+        {
+          "type": "text",
+          "text": "Время ожидания возврата денег"
+        }
+      ]
+    },
+    {
+      "type": "left_right_cell_view",
+      "left": {
+        "type": "simple_left_view",
+        "icon": {
+          "address": {
+            "type": "local",
+           "identificator": "circle_cross"
+          },
+          "size": {
+            "width": "medium",
+            "height": "medium"
+          },
+          "margins": {
+            "top": "5x",
+            "right": "6x",
+            "bottom": "5x",
+            "left": "8x"
+          },
+          "tint_color": "solid_brand"
+        },
+        "title": {
+          "text": "Магазин отменил покупку",
+          "typeface": "body1",
+          "text_color": "default",
+          "margins": {
+            "top": "9x",
+            "bottom": "9x"
+          }
+        }
+      },
+      "right": {
+        "type": "disclosure_right_view",
+        "margins": {
+          "top": "8x",
+          "right": "4x",
+          "bottom": "8x"
+        }
+      },
+      "divider": {
+       "style": "default",
+        "size": "d5"
+      },
+      "actions": [
+        {
+          "type": "text",
+          "text": "Магазин отменил покупку"
+        }
+      ]
+    },
+    {
+      "type": "left_right_cell_view",
+      "left": {
+        "type": "simple_left_view",
+        "icon": {
+          "address": {
+            "type": "url",
+            "url": "https://va-res.online.sberbank.ru/VA/icons/ic_36_tag.png"
+          },
+          "size": {
+            "width": "medium",
+            "height": "medium"
+          },
+          "margins": {
+            "top": "5x",
+            "right": "6x",
+            "bottom": "5x",
+            "left": "8x"
+          },
+          "tint_color": "solid_brand"
+        },
+        "title": {
+          "text": "Продали некачественный товар",
+          "typeface": "body1",
+          "text_color": "default",
+          "margins": {
+            "top": "9x",
+            "bottom": "9x"
+          }
+        }
+      },
+      "right": {
+        "type": "disclosure_right_view",
+        "margins": {
+          "top": "8x",
+          "right": "4x",
+          "bottom": "8x"
+        }
+      },
+      "divider": {
+        "style": "default",
+        "size": "d5"
+      },
+      "actions": [
+        {
+          "type": "text",
+          "text": "Продали некачественный товар"
+        }
+      ]
+    },
+    {
+      "type": "left_right_cell_view",
+      "left": {
+        "type": "simple_left_view",
+        "icon": {
+          "address": {
+            "type": "local",
+            "identificator": "shield"
+          },
+          "size": {
+            "width": "medium",
+            "height": "medium"
+          },
+          "margins": {
+            "top": "5x",
+            "right": "6x",
+            "bottom": "5x",
+            "left": "8x"
+          },
+          "tint_color": "solid_brand"
+        },
+        "title": {
+          "text": "Как вернуть товар со страховкой",
+          "typeface": "body1",
+          "text_color": "default",
+          "margins": {
+            "top": "9x",
+            "bottom": "9x"
+          }
+        }
+      },
+      "right": {
+        "type": "disclosure_right_view",
+        "margins": {
+          "top": "8x",
+          "right": "4x",
+          "bottom": "8x"
+        }
+      },
+      "actions": [
+        {
+          "type": "text",
+          "text": "Как вернуть товар со страховкой"
+        }
       ]
     }
+  ]
+}
